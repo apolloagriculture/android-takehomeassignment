@@ -10,7 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.apolloagriculture.android.takehomeassignment.presentattion.theme.ApolloAppTheme
+import com.apolloagriculture.android.takehomeassignment.presentation.theme.ApolloAppTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

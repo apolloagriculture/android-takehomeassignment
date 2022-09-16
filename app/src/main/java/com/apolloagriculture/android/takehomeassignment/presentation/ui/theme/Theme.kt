@@ -1,4 +1,4 @@
-package com.apolloagriculture.android.takehomeassignment.presentattion.theme
+package com.apolloagriculture.android.takehomeassignment.presentation.theme
 
 import android.app.Activity
 import android.os.Build
