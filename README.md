@@ -29,6 +29,6 @@ Requirements
   }
 }
  ```
-Feel free to use however you think best in the app, it's also available at `[https://apollo-web-public.s3.eu-west-1.amazonaws.com/eng/android-takehomeassignment/weather.json](https://s3.eu-west-1.amazonaws.com/assets.apolloagriculture.com/recruitment/android/weather.json)` so feel free to add an API client.
+Feel free to use however you think best in the app, it's also available at [https://apollo-web-public.s3.eu-west-1.amazonaws.com/eng/android-takehomeassignment/weather.json](https://s3.eu-west-1.amazonaws.com/assets.apolloagriculture.com/recruitment/android/weather.json) so feel free to add an API client.
 - Documentation for the API is available in `API.md` in this folder.
 - Use any libraries for Android that you want, but we will need to be able to build your code to evaluate it.
