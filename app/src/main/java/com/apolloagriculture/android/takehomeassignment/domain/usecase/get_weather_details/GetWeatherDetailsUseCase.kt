@@ -11,14 +11,14 @@ import javax.inject.Inject
 class GetWeatherDetailsUseCase @Inject constructor(
     private val repository: ApolloWeatherRepository
 ) {
-    operator fun invoke(): kotlinx.coroutines.flow.Flow<Resource<List<Weather>>> = flow {
-        try{
+    operator fun invoke(): kotlinx.coroutines.flow.Flow<Resource<Weather>> = flow {
+        try {
             emit(Resource.Loading())
             val weatherDetails = repository.getWeatherDetails()
             emit(Resource.Success(weatherDetails))
-        }catch(e: HttpException){
-            emit(Resource.Error(e.localizedMessage?: "An unexpected error occurred"))
-        }catch(e: IOException){
+        } catch (e: HttpException) {
+            emit(Resource.Error(e.localizedMessage ?: "An unexpected error occurred"))
+        } catch (e: IOException) {
             emit(Resource.Error("Couldn't reach server"))
         }
     }

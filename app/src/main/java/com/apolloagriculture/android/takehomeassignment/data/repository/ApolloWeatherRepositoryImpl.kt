@@ -7,9 +7,9 @@ import javax.inject.Inject
 
 class ApolloWeatherRepositoryImpl @Inject constructor(
     private val api: ApolloApi
-): ApolloWeatherRepository {
+) : ApolloWeatherRepository {
 
-    override suspend fun getWeatherDetails(): List<Weather> {
+    override suspend fun getWeatherDetails(): Weather {
         return api.getWeatherDetails()
     }
 }

@@ -4,5 +4,5 @@ import com.apolloagriculture.android.takehomeassignment.domain.model.Weather
 
 interface ApolloWeatherRepository {
 
-    suspend fun getWeatherDetails(): List<Weather>
+    suspend fun getWeatherDetails(): Weather
 }

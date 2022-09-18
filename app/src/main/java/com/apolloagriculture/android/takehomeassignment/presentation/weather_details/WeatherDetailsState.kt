@@ -4,6 +4,6 @@ import com.apolloagriculture.android.takehomeassignment.domain.model.Weather
 
 data class WeatherDetailsState(
     val isLoading: Boolean = false,
-    val weatherDetails: List<Weather> = emptyList(),
+    val weatherDetails: Weather? = null,
     val error: String = ""
 )
